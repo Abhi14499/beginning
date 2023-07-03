@@ -33,10 +33,16 @@ var itemList = document.querySelector('#items');
 // itemList.lastElementChild.textContent = 'Hello 4';
 
 // nextSiblings
-console.log(itemList.nextSibling);
+// console.log(itemList.nextSibling);
 
-//nextElementSiblings
-console.log(itemList.nextElementSibling);
+// nextElementSiblings
+// console.log(itemList.nextElementSibling);
+
+// previoussibling
+console.log(itemList.previousSibling);
+
+// previouselementsibling
+console.log(itemList.previousElementSibling);
 
 
 
