@@ -29,8 +29,14 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.lastChild);
 
 // lastelementchild
-console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent = 'Hello 4';
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = 'Hello 4';
+
+// nextSiblings
+console.log(itemList.nextSibling);
+
+//nextElementSiblings
+console.log(itemList.nextElementSibling);
 
 
 
