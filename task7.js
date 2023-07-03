@@ -39,10 +39,24 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.nextElementSibling);
 
 // previoussibling
-console.log(itemList.previousSibling);
+// console.log(itemList.previousSibling);
 
 // previouselementsibling
-console.log(itemList.previousElementSibling);
+// console.log(itemList.previousElementSibling);
+
+// Create a div
+var newDiv = document.createElement('div');
+
+// Add class
+newDiv.className = 'hello';
+
+// Add id
+newDiv.id = 'hello1';
+
+// Add attributes
+newDiv.setAttribute('title', 'Hello Div');
+
+console.log(newDiv);
 
 
 
