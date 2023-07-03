@@ -56,6 +56,19 @@ newDiv.id = 'hello1';
 // Add attributes
 newDiv.setAttribute('title', 'Hello Div');
 
+// Create Text Node
+var newDivText = document.createTextNode('Hello World');
+
+// Add Text Div
+newDiv.appendChild(newDivText);
+
+var container = document.querySelector('header .container');
+var h1 = document.querySelector('header h1');
+
+container.insertBefore(newDiv, h1);
+
+newDiv.style.fontSize = '30px';
+
 console.log(newDiv);
 
 
