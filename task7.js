@@ -16,4 +16,7 @@
 var itemList = document.querySelector('#items');
 
 // parentElement
-itemList.parentElement.style.backgroundColor = '#f4f4f4';
+// itemList.parentElement.style.backgroundColor = '#f4f4f4';
+
+// firstchild
+console.log(itemList.firstChild);
