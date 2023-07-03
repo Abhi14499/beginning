@@ -19,4 +19,8 @@ var itemList = document.querySelector('#items');
 // itemList.parentElement.style.backgroundColor = '#f4f4f4';
 
 // firstchild
-console.log(itemList.firstChild);
+// console.log(itemList.firstChild);
+
+// firstelementchild
+console.log(itemList.firstElementChild);
+itemList.firstElementChild.textContent = 'Hello 1';
