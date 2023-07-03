@@ -22,5 +22,15 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.firstChild);
 
 // firstelementchild
-console.log(itemList.firstElementChild);
-itemList.firstElementChild.textContent = 'Hello 1';
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent = 'Hello 1';
+
+// lastchild
+// console.log(itemList.lastChild);
+
+// lastelementchild
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent = 'Hello 4';
+
+
+
